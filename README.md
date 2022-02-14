@@ -41,12 +41,9 @@ Tendo isso em vista, tomamos a liberdade de simular os dados de entrada do siste
 
 ## Fluxogramas
 
-![Fluxograma 1](https://i.imgur.com/9Z6MAow.jpg)
+![Fluxograma 1](https://github.com/FelipeJBarros/smart-pot/blob/main/src/fluxo01.png)
 
-![Fluxograma 2](https://i.imgur.com/EpABNp0.jpg)
-
-![Fluxograma 3](https://i.imgur.com/nOADsRx.jpg)
-
+![Fluxograma 2](https://github.com/FelipeJBarros/smart-pot/blob/main/src/fluxo02.png)
 
 ## Resultados finais
 
