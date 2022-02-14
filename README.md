@@ -12,7 +12,7 @@ https://youtu.be/0-HjJ-phw9M
 
 
 # *Smart Pot*
-O Smart Por é um projeto de sistemas microprocessados que visa implementar um sistema de rega automática de plantas de pequeno porte. O Smart Pot é um vaso que possui acoplado um pequeno reservatório de água e sensores de umidade que controlam a umidade do solo para o crescimento da planta sem interferência humana.
+O Smart Pot é um projeto de sistemas microprocessados que visa implementar um sistema de rega automática de plantas de pequeno porte. O Smart Pot é um vaso que possui acoplado um pequeno reservatório de água e sensores de umidade que controlam a porcentagem de água no solo para o crescimento da planta sem interferência humana.
 
 ## Motivação
 
