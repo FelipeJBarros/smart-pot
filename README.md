@@ -49,7 +49,7 @@ Tendo isso em vista, tomamos a liberdade de simular os dados de entrada do siste
 
 * Implementação bem sucedida do sistema de controle e notificação visual de nível de água.
 * Implementação bem sucedida do acionamento do sistema de liberação de água.
-* Comunicação bem sucedida entre STM32, Serial, componentes e sinal de entrada.
+* Comunicação bem sucedida entre STM32, Serial, componentes e sinais de entrada.
 * Uso bem sucedido de multiplos canais ADC.
 
 ## Trabalhos Futuros
