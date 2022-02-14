@@ -2,7 +2,7 @@
 
 Felipe Jonathan Barros de Oliveira - 471752
 
-Mario Cesar Freire Dias Filho - 472773
+Leo Vitor Nascimento Ribeiro - 473079
 
 
 ## Link para apresentação
@@ -11,33 +11,32 @@ Mario Cesar Freire Dias Filho - 472773
 https://youtu.be/0-HjJ-phw9M
 
 
-# *PIDSpoon [WIP]*
-O PIDSpoon é um projeto de sistemas microprocessados que visa implementar um algoritmo de controle PID e de tratamento de sinais como a media movel para o desenvovimento de uma colher que possa ajudar a alimentação de pacientes com limitações motoras na mão.
+# *Smart Pot*
+O Smart Por é um projeto de sistemas microprocessados que visa implementar um sistema de rega automática de plantas de pequeno porte. O Smart Pot é um vaso que possui acoplado um pequeno reservatório de água e sensores de umidade que controlam a umidade do solo para o crescimento da planta sem interferência humana.
 
 ## Motivação
 
-Temos como motivação do desenvolvimento do PIDSpoon a reprodução de um modelo comercial de uma colher motorizada para alimentação de pessoas que possuem condições que dificultem a alimentação devido a movimentos irregulares dos braços ou mãos, condição muito comum em pacientes com sindrome de Parkinson.
+O projeto foi idealizado para atender as necessidades de pessoas que não possuem o tempo necessário para manter pequenas plantas em bom estado. O produto visa facilitar o trato das plantas permitindo que permaneçam saudáveis sem interferência humana.
 
 ## Componentes
 O projeto utilizará os seguintes componentes:
-* MPU6050
-* STM32F103C8T6 
-* 2 micro servo motores
+* 
+*  
+* 
 
 Esquematico:
 
 ![Esquematico](https://i.imgur.com/4bEGhgM.jpg)
-## Background
-
-O algoritmo PID busca minimizar um erro a partir da ação em uma atuador agindo baseado em dados de um sensor, já a media movel busca reduzir ruidos e oscilações que possam atrapalhar a medição do valor real do sensor.
 
 ##Proposta inicial
 
-Desenvolvimento de uma prova de conceito de uma colher para auxiliar a alimentação de pacientes de Mal De Parkinson utilizando um controlador PID e um acelerometro como sina de entrada.
+Desenvolvimento de uma prova de conceito de um vaso autômato que ajuda a manter saudável plantas de pequeno porte. O produto conta com um sensor de umidade usado para controlar o nível de água no solo, um sensor de nível de água usado para informar ao usuário quando é necessário reabastecer o repositório.
 
 ## Alterações necessarias
 
-Adaptação para entrada de dados do sensor para ser por meio de um sinal de audio, não possibilitando assim a sintonização do controlador PID.
+Devido a natureza excepcional da disciplina de sistemas microprocessados, o desenvolvimento da prova de conceito foi realizado em ambiente simulado (Proteus) e assim surgiu a principal limitação do projeto, que é, alguns dos módulos necessário para confecção estão indisponíveis ou apresentam mau funcionamento no ambiente virtual supracitado.
+
+Tendo isso em vista, tomamos a liberdade de simular os dados de entrada do sistema a partir de um potenciômetro simples.
 
 ## Fluxogramas
 
@@ -50,15 +49,15 @@ Adaptação para entrada de dados do sensor para ser por meio de um sinal de aud
 
 ## Resultados finais
 
-* Implementação bem sucedida do filtro de media movel
-* Implementação bem sucedida do controlador PID
-* Comunicação bem sucedida entre STM32, Serial, Servomotor e sianal de entrada
-* Uso bem sucedido de multiplos canais PWM e ADC
+* Implementação bem sucedida do sistema de controle e notificação visual de nível de água.
+* Implementação bem sucedida do acionamento do sistema de liberação de água.
+* Comunicação bem sucedida entre STM32, Serial, componentes e sinal de entrada.
+* Uso bem sucedido de multiplos canais ADC.
 
 ## Trabalhos Futuros
 
-* Desenvolvimento de um modelo fisico para o projeto
-* Substituição do sinal arbitrario de entrada pelo MPU6050
+* Desenvolvimento de um modelo fisico para o projeto.
+* Substituição dos módulos simulados por módulos reais.
 
 ## Conclusão
 
