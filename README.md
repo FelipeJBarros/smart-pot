@@ -27,7 +27,7 @@ O projeto utilizará os seguintes componentes:
 
 Esquematico:
 
-![Esquematico]("src/Esquemático.png")
+![Esquematico](https://github.com/FelipeJBarros/smart-pot/blob/main/src/Esquemático.png)
 
 ## Proposta inicial
 
