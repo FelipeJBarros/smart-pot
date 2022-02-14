@@ -27,7 +27,7 @@ O projeto utilizará os seguintes componentes:
 
 Esquematico:
 
-![Esquematico](https://i.imgur.com/4bEGhgM.jpg)
+![Esquematico]("./src/Esquemático.png")
 
 ## Proposta inicial
 
