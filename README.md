@@ -28,7 +28,7 @@ Esquematico:
 
 ![Esquematico](https://i.imgur.com/4bEGhgM.jpg)
 
-##Proposta inicial
+## Proposta inicial
 
 Desenvolvimento de uma prova de conceito de um vaso autômato que ajuda a manter saudável plantas de pequeno porte. O produto conta com um sensor de umidade usado para controlar o nível de água no solo, um sensor de nível de água usado para informar ao usuário quando é necessário reabastecer o repositório.
 
@@ -58,6 +58,7 @@ Tendo isso em vista, tomamos a liberdade de simular os dados de entrada do siste
 
 * Desenvolvimento de um modelo fisico para o projeto.
 * Substituição dos módulos simulados por módulos reais.
+* Adição do sistema de acionamento da torneira via rele.
 
 ## Conclusão
 
