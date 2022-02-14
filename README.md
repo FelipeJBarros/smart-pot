@@ -20,9 +20,10 @@ O projeto foi idealizado para atender as necessidades de pessoas que não possue
 
 ## Componentes
 O projeto utilizará os seguintes componentes:
-* 
-*  
-* 
+* BluePill STM32F103C6
+* Sensor De Umidade De Solo (https://www.filipeflop.com/produto/sensor-de-umidade-do-solo-higrometro/)
+* Sensor de Nível de água (https://www.eletrogate.com/modulo-sensor-de-chuva-nivel-de-agua/)
+
 
 Esquematico:
 
@@ -30,13 +31,13 @@ Esquematico:
 
 ## Proposta inicial
 
-Desenvolvimento de uma prova de conceito de um vaso autômato que ajuda a manter saudável plantas de pequeno porte. O produto conta com um sensor de umidade usado para controlar o nível de água no solo, um sensor de nível de água usado para informar ao usuário quando é necessário reabastecer o repositório.
+Desenvolvimento de uma prova de conceito de um vaso autômato que ajuda a manter saudável plantas de pequeno porte. O produto conta com um sensor de umidade usado para controlar o nível de água no solo e um sensor de nível de água usado para informar ao usuário quando é necessário reabastecer o repositório.
 
 ## Alterações necessarias
 
 Devido a natureza excepcional da disciplina de sistemas microprocessados, o desenvolvimento da prova de conceito foi realizado em ambiente simulado (Proteus) e assim surgiu a principal limitação do projeto, que é, alguns dos módulos necessário para confecção estão indisponíveis ou apresentam mau funcionamento no ambiente virtual supracitado.
 
-Tendo isso em vista, tomamos a liberdade de simular os dados de entrada do sistema a partir de um potenciômetro simples.
+Tendo isso em vista, tomamos a liberdade de simular os dados de entrada do sistema a partir de potenciômetros simples.
 
 ## Fluxogramas
 
